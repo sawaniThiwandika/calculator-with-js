@@ -1,4 +1,22 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #f0f8ff, #add8e6, #6495ed, #4169e1, #00008b);
+}
+#cover{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 800px;
+    height: 600px;
+    position:absolute;
+    margin: auto;
+ background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 
+
+}
 #calculator{
     top: 0;
     bottom: 0;
@@ -8,7 +26,9 @@
     height: 500px;
     position:absolute;
     margin: auto;
+
 }
+
 #btnC{
     position: absolute;
     left: 0;
@@ -22,7 +42,9 @@
     top: 0;
     width: 585px;
     height: 100px;
-    border: solid blue;
+    border: solid white;
+    border-radius: 5px;
+    font-size: 30px;
 }
 #btnArea{
     width: 700px;
@@ -37,3 +59,29 @@
     column-gap: 7px;
     row-gap: 7px;
 }
+button{
+    font-size: 30px;
+    border: none;
+    box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+#btnEqual{
+    background-color: #F2F7A1;
+
+}
+#btnC{
+    background-color: #E8C872;
+}
+#bMultiply{
+    background-color: #FFF3CF;
+}
+#bSubtract{
+    background-color: #FFF3CF;
+}
+#bPlus{
+     background-color: #FFF3CF;
+ }
+#bDivide{
+    background-color: #FFF3CF;
+}
+
