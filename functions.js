@@ -4,4 +4,9 @@ $(document).ready(function() {
         $('#textField').append(buttonText);
     });
 
+    $('#btnC').on('click', function() {
+        $('#textField').text('');
+    });
+
+
 });
