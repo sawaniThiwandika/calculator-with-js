@@ -8,5 +8,16 @@ $(document).ready(function() {
         $('#textField').text('');
     });
 
+    $('#btnEqual').on('click', function() {
+        let text = $("#textField").text();
+        console.log(text);
+        try {
+            let result = eval(text);
+            $('#textField').text(result);
+        } catch (error) {
+            console.error("Invalid expression:", error);
+            $('#textField').text('Error');
+        }
+    });
 
 });
